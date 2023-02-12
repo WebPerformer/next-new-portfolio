@@ -1,6 +1,6 @@
 Meu novo portfolio 2023
 
-![Home](https://user-images.githubusercontent.com/110235876/193091991-39ddc0f8-dc0a-4868-8c3a-ac64bd76d499.jpg)
+![FireShot Capture 004 - Gabriel Silva Araujo - localhost 2](https://user-images.githubusercontent.com/110235876/218331098-419057bc-c903-4f8d-8a15-497c55cfe413.png)
 
 ## Meu Portfolio Pessoal 2023
 
@@ -27,6 +27,6 @@ Meu novo portfolio 2023
 **Fique a vontade para fazer alterações.**
 
 ## Site Online
-(https://react-nft-market.vercel.app/)
+(https://next-new-portfolio.vercel.app/)
 
-![image](https://user-images.githubusercontent.com/110235876/193093688-b6136067-e302-476c-9333-fe9e18e329f1.png)
+![FireShot Capture 004 - Gabriel Silva Araujo - localhost](https://user-images.githubusercontent.com/110235876/218330927-49b6b936-8bfb-4827-9570-ed64041ed0da.png)

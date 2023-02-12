@@ -17,7 +17,7 @@ function Hero() {
           <p>Say Hi from <span>Gabriel</span>, <br /> Web Developer & UI/UX Design</p>
         </div>
         <div className="small-text">
-          <p className="gray-text">I'm Front-End developer and I love what I do. Take a time and explore my works. Hope you enjoy and don't forget to give a feedback on Linkedin.</p>
+          <p className="gray-text">I'm <span>Front-End developer</span> and I love what I do. Take a time and <span>explore my works</span>. Hope you enjoy and don't forget to give a feedback on <span>Linkedin</span>.</p>
         </div>
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
           <div className="number-counter">

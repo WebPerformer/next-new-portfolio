@@ -9,7 +9,7 @@ function About() {
         <div className="section-title"><AiOutlineUser/> About</div>
         <div className="about-wrapper wrapper">
             <h5>My name is Gabriel Silva Araujo. I'm here to show you all of <span>my projects</span> and my evolution has a programmer.</h5>
-            <p className="gray-text">I am a freelancer based in the Brazil and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+            <p className="gray-text">Graduated in <span>Computer Science</span> from Universidade Paulista, with extensive experience in <span>Front-End</span> development, specializing in applications using Javascript and improving my knowledge in <span>React.js</span> and <span>Next.js</span> Frameworks.</p>
         </div>
     </section>
   )

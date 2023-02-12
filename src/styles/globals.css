@@ -86,6 +86,11 @@ h5 span{
     color: var(--gray-color);
 }
 
+.gray-text span{
+    color: var(--primary-color);
+    opacity: .5;
+}
+
 /* LEFT CARD */
 .left-card{
     text-align: center;

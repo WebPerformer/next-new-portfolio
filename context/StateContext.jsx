@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useRef, useState } from "react"
+import { data } from '../public/json/projects'
 
 const Context = createContext()
 
@@ -8,6 +9,7 @@ export const StateContext = ({ children }) => {
     const navRef = useRef(null)
     const [menu, setMenu] = useState(false)
     const [allProjects, setAllProjects] = useState(false)
+    const [totalProjects, setTotalProjects] = useState(data.projects.length - 5)
 
     return (
         <Context.Provider
@@ -18,6 +20,8 @@ export const StateContext = ({ children }) => {
                 setMenu,
                 allProjects,
                 setAllProjects,
+                totalProjects,
+                setTotalProjects,
             }}
         >
             {children}

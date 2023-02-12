@@ -5,9 +5,14 @@ import ScrollTrigger from 'react-scroll-trigger'
 // icons
 import { AiOutlineHome } from 'react-icons/ai'
 
+// Context
+import { useStateContext } from 'context/StateContext'
+
 function Hero() {
 
   const [counterOn, setCounterOn] = useState(false)
+
+  const { totalProjects } = useStateContext()
 
   return (
     <section className="hero" id='hero'>
@@ -26,7 +31,7 @@ function Hero() {
               <p>Years Of Experience</p>
             </div>
             <div className="number-container">
-              <div className="num">{counterOn && <CountUp start={0} end={35} duration={1} delay={0}/>}+</div>
+              <div className="num">{counterOn && <CountUp start={0} end={totalProjects} duration={1} delay={0}/>}+</div>
               <p>Projects Completed</p>
             </div>
           </div>

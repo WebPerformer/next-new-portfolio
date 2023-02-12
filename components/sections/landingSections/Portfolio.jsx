@@ -13,7 +13,7 @@ import { useStateContext } from 'context/StateContext'
 
 function Portfolio() {
 
-    const { setAllProjects } = useStateContext()
+    const { setAllProjects, totalProjects } = useStateContext()
 
     return (
         <section className="portfolio" id="portfolio">
@@ -47,7 +47,7 @@ function Portfolio() {
                 <div className="portfolio-footer">
                     <button className="portfolio-button" onClick={() => setAllProjects(true)}>All Projetcs</button>
                     <div className="total">
-                        PROJECTS COMPLETED: <span>{data.projects.length - 5}</span>
+                        PROJECTS COMPLETED: <span>{totalProjects}</span>
                     </div>
                 </div>
             </div>

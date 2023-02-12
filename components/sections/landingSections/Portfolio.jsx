@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React from 'react'
 import Link from 'next/link'
 
 // icons
@@ -46,7 +46,9 @@ function Portfolio() {
                 </div>
                 <div className="portfolio-footer">
                     <button className="portfolio-button" onClick={() => setAllProjects(true)}>All Projetcs</button>
-                    <div className="total">PROJECTS COMPLETED: <span>{data.projects.length}</span></div>
+                    <div className="total">
+                        PROJECTS COMPLETED: <span>{data.projects.length - 5}</span>
+                    </div>
                 </div>
             </div>
         </section>

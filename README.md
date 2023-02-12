@@ -27,6 +27,6 @@ Meu novo portfolio 2023
 **Fique a vontade para fazer alterações.**
 
 ## Site Online
-(https://react-nft-market.vercel.app/)
+(https://next-new-portfolio.vercel.app/)
 
 ![FireShot Capture 004 - Gabriel Silva Araujo - localhost](https://user-images.githubusercontent.com/110235876/218330927-49b6b936-8bfb-4827-9570-ed64041ed0da.png)

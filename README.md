@@ -1,6 +1,6 @@
 Meu novo portfolio 2023
 
-![Home](https://user-images.githubusercontent.com/110235876/193091991-39ddc0f8-dc0a-4868-8c3a-ac64bd76d499.jpg)
+![FireShot Capture 004 - Gabriel Silva Araujo - localhost 2](https://user-images.githubusercontent.com/110235876/218331098-419057bc-c903-4f8d-8a15-497c55cfe413.png)
 
 ## Meu Portfolio Pessoal 2023
 

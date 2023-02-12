@@ -23,7 +23,7 @@ function LeftCard() {
                         <FaGithub/>
                     </div>
                 </Link>
-                <Link target='_blank' href="https://wa.me/qr/7SDYDWOS3CGRN1">
+                <Link target='_blank' href="https://api.whatsapp.com/send?phone=5511915657659">
                     <div className="social-circle">
                         <FaWhatsapp/>
                     </div>

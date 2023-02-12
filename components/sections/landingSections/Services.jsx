@@ -18,7 +18,7 @@ function Services() {
                         <div className="service-name">Websites</div>
                         <div className="service-icon"><FaReact/></div>
                     </div>
-                    <div className="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere.</div>
+                    <div className="service-desc">I produce websites that increase my knowledge. Like this one.</div>
                     <div className="service-qty">24 Projects</div>
                 </div>
                 <div className="card">
@@ -26,7 +26,7 @@ function Services() {
                         <div className="service-name">Development</div>
                         <div className="service-icon"><HiOutlineCode/></div>
                     </div>
-                    <div className="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere.</div>
+                    <div className="service-desc">Codes I used a lot. In the development section you will find some logic codes that really help me.</div>
                     <div className="service-qty">4 Projects</div>
                 </div>
                 <div className="card">
@@ -34,7 +34,7 @@ function Services() {
                         <div className="service-name">Components</div>
                         <div className="service-icon"><BiVector/></div>
                     </div>
-                    <div className="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere.</div>
+                    <div className="service-desc">One of the most important things on this website. Here are some stylized items to help me to speed up my projects.</div>
                     <div className="service-qty">7 Projects</div>
                 </div>
             </div>

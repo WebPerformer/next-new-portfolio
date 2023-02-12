@@ -17,7 +17,7 @@ function Footer() {
                 <Link target='_blank' href="http://github.com/WebPerformer">
                     <FaGithub/>
                 </Link>
-                <Link target='_blank' href="https://wa.me/qr/7SDYDWOS3CGRN1">
+                <Link target='_blank' href="https://api.whatsapp.com/send?phone=5511915657659">
                     <SiWhatsapp/>
                 </Link>
             </div>

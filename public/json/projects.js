@@ -27,7 +27,7 @@ export const data = {
         },
         {
             "type": "component",
-            "icon": <BiCodeAlt/>,
+            "icon": <BiVector/>,
             "image": "https://i.imgur.com/5iqSpqg.jpg",
             "name": "Tredy Scrolldown",
             "link": "https://github.com/WebPerformer/next-scroll-effect-circular-text",
@@ -90,26 +90,6 @@ export const data = {
             "categories": ["Websites", "Codes", "Components"],
             "date": "12/01/2023",
             "credits": "Tutorial-Online.com"
-        },
-        // {
-        //     "type": "dev",
-        //     "icon": <BiVector/>,
-        //     "image": "https://i.imgur.com/etVAZAc.jpg",
-        //     "name": "MouseMove Parallax",
-        //     "link": "https://www.youtube.com/watch?v=9-vBx7F0lns",
-        //     "categories": ["Next.js"],
-        //     "date": "29/12/2022",
-        //     "credits": "Tutorial-Online.com"
-        // },
-        // {
-        //     "type": "component",
-        //     "icon": <BiCodeAlt/>,
-        //     "image": "https://i.imgur.com/KyQx9s3.jpg",
-        //     "name": "Neon Text Animation",
-        //     "link": "https://www.youtube.com/watch?v=9-vBx7F0lns",
-        //     "categories": ["React.js", "HTML", "CSS"],
-        //     "date": "14/12/2022",
-        //     "credits": "Tutorial-Online.com"
-        // },
+        }
     ]
 }

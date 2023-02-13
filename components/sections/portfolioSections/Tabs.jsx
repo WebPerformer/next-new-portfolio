@@ -58,6 +58,9 @@ function Tabs() {
                     {data.projects.filter(dev => dev.type === "dev").map((project, index) => {
                         return (
                             <div className="portfolio-card" key={index}>
+                                <Link target="_blank" href={project.link}>
+                                    <div className="view-site"><FaGithub/></div>
+                                </Link>
                                 <img src={project.image} alt=""/>
                                 <div className="project-infos">
                                     <div className="info">
@@ -84,6 +87,9 @@ function Tabs() {
                     {data.projects.filter(component => component.type === "component").map((project, index) => {
                         return (
                             <div className="portfolio-card" key={index}>
+                                <Link target="_blank" href={project.link}>
+                                    <div className="view-site"><FaGithub/></div>
+                                </Link>
                                 <img src={project.image} alt=""/>
                                 <div className="project-infos">
                                     <div className="info">

@@ -4,6 +4,7 @@ import Link from 'next/link'
 // Icons
 import { HiArrowTopRightOnSquare } from 'react-icons/hi2'
 import { MdOutlineClose } from 'react-icons/md'
+import { FaGithub } from 'react-icons/fa'
 
 // Projects
 import { data } from '../../../public/json/projects.js'
@@ -19,15 +20,18 @@ function Tabs() {
     return (
         <section className="tabs-wrapper">
             <div className="tabs-menu">
-                <div className={tabs === 0 ? "tab tab-web active" : "tab tab-web"} onClick={() => setTabs(0)}>Websites</div>
-                <div className={tabs === 1 ? "tab tab-dev active" : "tab tab-dev"} onClick={() => setTabs(1)}>Developement</div>
-                <div className={tabs === 2 ? "tab tab-components active" : "tab tab-components"} onClick={() => setTabs(2)}>Components</div>
+                <div className={tabs === 0 ? "tab tab-web active" : "tab tab-web"} onClick={() => setTabs(0)}>Websites <span>{data.projects.filter(web => web.type === "web").length}</span></div>
+                <div className={tabs === 1 ? "tab tab-dev active" : "tab tab-dev"} onClick={() => setTabs(1)}>Developement <span>{data.projects.filter(dev => dev.type === "dev").length}</span></div>
+                <div className={tabs === 2 ? "tab tab-components active" : "tab tab-components"} onClick={() => setTabs(2)}>Components <span>{data.projects.filter(component => component.type === "component").length}</span></div>
             </div>
             {tabs == 0 && 
                 <div className="tab-content">
                     {data.projects.filter(web => web.type === "web").map((project, index) => {
                         return (
                             <div className="portfolio-card" key={index}>
+                                <Link target="_blank" href={project.link}>
+                                    <div className="view-site"><FaGithub/></div>
+                                </Link>
                                 <img src={project.image} alt=""/>
                                 <div className="project-infos">
                                     <div className="info">

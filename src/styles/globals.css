@@ -878,6 +878,7 @@ h5 span{
 }
 
 .tabs-wrapper .tabs-menu .tab{
+    position: relative;
     font-size: 16px;
     padding: 10px 25px;
     border: 1px solid var(--gray-color);
@@ -893,6 +894,22 @@ h5 span{
     opacity: 1;
 }
 
+.tabs-wrapper .tabs-menu .tab span{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    top: -5px;
+    right: -5px;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: var(--dark-color);
+    background-color: var(--primary-color);
+}
+
 .tabs-wrapper .tab-content{
     max-width: 1600px;
     margin: auto;
@@ -906,6 +923,21 @@ h5 span{
     padding: 15px;
     border: 1px solid var(--gray-color);
     border-radius: 20px;
+}
+
+.tabs-wrapper .tab-content .portfolio-card .view-site{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    color: var(--primary-color);
+    opacity: 0;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.tabs-wrapper .tab-content .portfolio-card:hover .view-site{
+    opacity: 1;
 }
 
 .tabs-wrapper .tab-content .portfolio-card img{

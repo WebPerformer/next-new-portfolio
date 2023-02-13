@@ -15,7 +15,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "component",
+            "type": "dev",
             "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/ecU5yUG.jpg",
             "name": "Mousemove Parallax",

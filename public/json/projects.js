@@ -8,7 +8,7 @@ export const data = {
             "icon": <FaReact/>,
             "image": "https://i.imgur.com/oqaRKoq.jpg",
             "name": "My Personal Portfolio",
-            "link": "https://www.youtube.com/watch?v=9-vBx7F0lns",
+            "link": "https://github.com/WebPerformer/next-new-portfolio",
             "categories": ["Next.js", "Greensock", "CSS", "Javascript"],
             "date": "12/01/2023",
             "credits": "Tutorial-Online.com"

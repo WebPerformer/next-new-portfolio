@@ -15,8 +15,8 @@ import { gsap } from 'gsap'
 
 function RightNav() {
 
-    // MAGNET NAVIGATION
-    const magnetRef = useRef(null)
+    // CIRCLE MENU
+    const circleRef = useRef(null)
 
     // GSAP MENU ANIMATION
     const { menuRef, navRef, menu, setMenu } = useStateContext()
@@ -50,10 +50,18 @@ function RightNav() {
         menu ? tl.current.play() : tl.current.reverse()
     }, [menu])
 
+    const handleCircle = () => {
+        setMenu(!menu)
+        circleRef.current.style.pointerEvents = "none"
+        setTimeout(() => {
+            circleRef.current.style.pointerEvents = "all"
+        }, 2000)
+    }
+
     return (
         <div className="right-nav">
             <div className="wrapper-menu">
-                <div className="menu-circle" ref={magnetRef} onClick={() => setMenu(!menu)}>
+                <div className="menu-circle" ref={circleRef} onClick={() => handleCircle()}>
                     {menu ? <MdOutlineClose/> : <FaGripLines/>}
                 </div>
             </div>

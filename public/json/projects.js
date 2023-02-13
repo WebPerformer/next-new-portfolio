@@ -26,6 +26,17 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
+            "type": "component",
+            "icon": <BiCodeAlt/>,
+            "image": "https://i.imgur.com/5iqSpqg.jpg",
+            "name": "Tredy Scrolldown",
+            "link": "https://github.com/WebPerformer/next-scroll-effect-circular-text",
+            "site": "https://next-scroll-effect-circular-text.vercel.app/",
+            "categories": ["Next.js", "Jquery", "CSS"],
+            "date": "14/12/2022",
+            "credits": "Tutorial-Online.com"
+        },
+        {
             "type": "soon",
             "icon": <FaReact/>,
             "image": "https://i.imgur.com/PmSM9j7.jpg",

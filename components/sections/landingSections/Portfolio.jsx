@@ -4,6 +4,7 @@ import Link from 'next/link'
 // icons
 import { BsGrid3X3Gap } from 'react-icons/bs'
 import { HiArrowTopRightOnSquare } from 'react-icons/hi2'
+import { FaGithub } from 'react-icons/fa'
 
 // Projects
 import { data } from '../../../public/json/projects.js'
@@ -24,6 +25,9 @@ function Portfolio() {
                     {data.projects.slice(0, 6).map((project, index) => {
                         return (
                             <div className="portfolio-card" key={index}>
+                                <Link target="_blank" href={project.link}>
+                                    <div className="view-site"><FaGithub/></div>
+                                </Link>
                                 <img src={project.image} alt=""/>
                                 <div className="project-infos">
                                     <div className="info">
@@ -35,7 +39,7 @@ function Portfolio() {
                                                 })}
                                             </div>
                                         </div>
-                                        <Link target="_blank" href={project.link}>
+                                        <Link target="_blank" href={project.site}>
                                             <div className="right"><HiArrowTopRightOnSquare/></div>
                                         </Link>
                                     </div>

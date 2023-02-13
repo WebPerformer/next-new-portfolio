@@ -553,6 +553,21 @@ h5 span{
     border-radius: 20px;
 }
 
+.portfolio-wrapper .portfolio-grid .portfolio-card .view-site{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    color: var(--primary-color);
+    opacity: 0;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.portfolio-wrapper .portfolio-grid .portfolio-card:hover .view-site{
+    opacity: 1;
+}
+
 .portfolio-wrapper .portfolio-grid .portfolio-card img{
     display: block;
     width: 100%;

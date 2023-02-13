@@ -9,6 +9,7 @@ export const data = {
             "image": "https://i.imgur.com/oqaRKoq.jpg",
             "name": "My Personal Portfolio",
             "link": "https://github.com/WebPerformer/next-new-portfolio",
+            "site": "https://next-new-portfolio.vercel.app/",
             "categories": ["Next.js", "Greensock", "CSS", "Javascript"],
             "date": "12/01/2023",
             "credits": "Tutorial-Online.com"
@@ -19,6 +20,7 @@ export const data = {
             "image": "https://i.imgur.com/PmSM9j7.jpg",
             "name": "Coming Soon",
             "link": "https://github.com/WebPerformer",
+            "site": "https://next-new-portfolio.vercel.app/",
             "categories": ["Websites", "Codes", "Components"],
             "date": "12/01/2023",
             "credits": "Tutorial-Online.com"
@@ -29,6 +31,7 @@ export const data = {
             "image": "https://i.imgur.com/PmSM9j7.jpg",
             "name": "Coming Soon",
             "link": "https://github.com/WebPerformer",
+            "site": "https://next-new-portfolio.vercel.app/",
             "categories": ["Websites", "Codes", "Components"],
             "date": "12/01/2023",
             "credits": "Tutorial-Online.com"
@@ -39,6 +42,7 @@ export const data = {
             "image": "https://i.imgur.com/PmSM9j7.jpg",
             "name": "Coming Soon",
             "link": "https://github.com/WebPerformer",
+            "site": "https://next-new-portfolio.vercel.app/",
             "categories": ["Websites", "Codes", "Components"],
             "date": "12/01/2023",
             "credits": "Tutorial-Online.com"
@@ -49,6 +53,7 @@ export const data = {
             "image": "https://i.imgur.com/PmSM9j7.jpg",
             "name": "Coming Soon",
             "link": "https://github.com/WebPerformer",
+            "site": "https://next-new-portfolio.vercel.app/",
             "categories": ["Websites", "Codes", "Components"],
             "date": "12/01/2023",
             "credits": "Tutorial-Online.com"
@@ -59,6 +64,7 @@ export const data = {
             "image": "https://i.imgur.com/PmSM9j7.jpg",
             "name": "Coming Soon",
             "link": "https://github.com/WebPerformer",
+            "site": "https://next-new-portfolio.vercel.app/",
             "categories": ["Websites", "Codes", "Components"],
             "date": "12/01/2023",
             "credits": "Tutorial-Online.com"

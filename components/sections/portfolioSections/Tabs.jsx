@@ -43,7 +43,7 @@ function Tabs() {
                                                 })}
                                             </div>
                                         </div>
-                                        <Link target="_blank" href={project.link}>
+                                        <Link target="_blank" href={project.site}>
                                             <div className="right"><HiArrowTopRightOnSquare/></div>
                                         </Link>
                                     </div>
@@ -72,7 +72,7 @@ function Tabs() {
                                                 })}
                                             </div>
                                         </div>
-                                        <Link target="_blank" href={project.link}>
+                                        <Link target="_blank" href={project.site}>
                                             <div className="right"><HiArrowTopRightOnSquare/></div>
                                         </Link>
                                     </div>
@@ -101,7 +101,7 @@ function Tabs() {
                                                 })}
                                             </div>
                                         </div>
-                                        <Link target="_blank" href={project.link}>
+                                        <Link target="_blank" href={project.site}>
                                             <div className="right"><HiArrowTopRightOnSquare/></div>
                                         </Link>
                                     </div>

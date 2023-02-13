@@ -15,6 +15,17 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
+            "type": "component",
+            "icon": <BiCodeAlt/>,
+            "image": "https://i.imgur.com/ecU5yUG.jpg",
+            "name": "Mousemove Parallax",
+            "link": "https://github.com/WebPerformer/next-mousemove-parallax",
+            "site": "https://next-mousemove-parallax.vercel.app/",
+            "categories": ["Next.js", "Vanilla.js", "CSS"],
+            "date": "14/12/2022",
+            "credits": "Tutorial-Online.com"
+        },
+        {
             "type": "soon",
             "icon": <FaReact/>,
             "image": "https://i.imgur.com/PmSM9j7.jpg",

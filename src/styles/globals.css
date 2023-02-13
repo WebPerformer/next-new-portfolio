@@ -500,8 +500,11 @@ h5 span{
 }
 
 .skills-wrapper .skills-cards .skills-card .circle{
+    opacity: .5;
+    border: 1px solid var(--gray-color);
     border-radius: 20px;
     margin-bottom: 15px;
+    padding: 10px;
     transition: all .3s ease;
 }
 
@@ -509,6 +512,7 @@ h5 span{
     border: 1px solid var(--primary-color);
     transform: translate(3px, -3px);
     box-shadow: -3px 3px 0 var(--primary-color);
+    opacity: 1;
 }
 
 .skills-wrapper .skills-cards .skills-card .circle .icon{

@@ -22,7 +22,7 @@ export const data = {
             "link": "https://github.com/WebPerformer/next-mousemove-parallax",
             "site": "https://next-mousemove-parallax.vercel.app/",
             "categories": ["Next.js", "Vanilla.js", "CSS"],
-            "date": "14/12/2022",
+            "date": "13/02/2023",
             "credits": "Tutorial-Online.com"
         },
         {
@@ -33,7 +33,18 @@ export const data = {
             "link": "https://github.com/WebPerformer/next-scroll-effect-circular-text",
             "site": "https://next-scroll-effect-circular-text.vercel.app/",
             "categories": ["Next.js", "Jquery", "CSS"],
-            "date": "14/12/2022",
+            "date": "13/02/2023",
+            "credits": "Tutorial-Online.com"
+        },
+        {
+            "type": "component",
+            "icon": <BiVector/>,
+            "image": "https://i.imgur.com/Hr1w2cb.jpg",
+            "name": "Custom Mouse Cursor",
+            "link": "https://github.com/WebPerformer/next-custom-mouse",
+            "site": "https://next-custom-mouse.vercel.app/",
+            "categories": ["Next.js", "Greensock", "CSS"],
+            "date": "14/02/2023",
             "credits": "Tutorial-Online.com"
         },
         {

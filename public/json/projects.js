@@ -48,6 +48,17 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
+            "type": "dev",
+            "icon": <BiVector/>,
+            "image": "https://i.imgur.com/CxlluKx.jpg",
+            "name": "Magnet on Mousemove",
+            "link": "https://github.com/WebPerformer/next-magnet-div",
+            "site": "https://next-magnet-div.vercel.app/",
+            "categories": ["Next.js", "Vanilla.js", "CSS"],
+            "date": "15/02/2023",
+            "credits": "Tutorial-Online.com"
+        },
+        {
             "type": "soon",
             "icon": <FaReact/>,
             "image": "https://i.imgur.com/PmSM9j7.jpg",

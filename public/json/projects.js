@@ -17,7 +17,7 @@ export const data = {
         {
             "type": "dev",
             "icon": <BiCodeAlt/>,
-            "image": "https://i.imgur.com/ecU5yUG.jpg",
+            "image": "https://i.imgur.com/pKb8yxg.jpg",
             "name": "Mousemove Parallax",
             "link": "https://github.com/WebPerformer/next-mousemove-parallax",
             "site": "https://next-mousemove-parallax.vercel.app/",
@@ -28,7 +28,7 @@ export const data = {
         {
             "type": "component",
             "icon": <BiVector/>,
-            "image": "https://i.imgur.com/5iqSpqg.jpg",
+            "image": "https://i.imgur.com/ed86VAX.jpg",
             "name": "Tredy Scrolldown",
             "link": "https://github.com/WebPerformer/next-scroll-effect-circular-text",
             "site": "https://next-scroll-effect-circular-text.vercel.app/",
@@ -39,7 +39,7 @@ export const data = {
         {
             "type": "component",
             "icon": <BiVector/>,
-            "image": "https://i.imgur.com/Hr1w2cb.jpg",
+            "image": "https://i.imgur.com/9grKBUZ.jpg",
             "name": "Custom Mouse Cursor",
             "link": "https://github.com/WebPerformer/next-custom-mouse",
             "site": "https://next-custom-mouse.vercel.app/",
@@ -50,7 +50,7 @@ export const data = {
         {
             "type": "dev",
             "icon": <BiVector/>,
-            "image": "https://i.imgur.com/CxlluKx.jpg",
+            "image": "https://i.imgur.com/4HSNW0t.jpg",
             "name": "Magnet on Mousemove",
             "link": "https://github.com/WebPerformer/next-magnet-div",
             "site": "https://next-magnet-div.vercel.app/",

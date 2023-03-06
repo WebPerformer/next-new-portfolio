@@ -9,11 +9,7 @@ export const StateContext = ({ children }) => {
     const navRef = useRef(null)
     const [menu, setMenu] = useState(false)
     const [allProjects, setAllProjects] = useState(false)
-<<<<<<< HEAD
     const [totalProjects, setTotalProjects] = useState(data.projects.length)
-=======
-    const [totalProjects, setTotalProjects] = useState(data.length)
->>>>>>> ddf06bba326455b38242213ccbed245f844d00e1
 
     return (
         <Context.Provider

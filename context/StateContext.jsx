@@ -9,7 +9,7 @@ export const StateContext = ({ children }) => {
     const navRef = useRef(null)
     const [menu, setMenu] = useState(false)
     const [allProjects, setAllProjects] = useState(false)
-    const [totalProjects, setTotalProjects] = useState(data.projects.length - 5)
+    const [totalProjects, setTotalProjects] = useState(data.projects.length)
 
     return (
         <Context.Provider

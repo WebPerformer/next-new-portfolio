@@ -61,7 +61,7 @@ export const data = {
         {
             "type": "web",
             "icon": <FaReact/>,
-            "image": "https://i.imgur.com/GOBDAGe.jpg",
+            "image": "https://i.imgur.com/4oPNEG7.jpg",
             "name": "MERN Dashboard",
             "link": "https://github.com/WebPerformer/MERN-Dashboard-Client",
             "site": "https://mern-dashboard-client-omega.vercel.app/",

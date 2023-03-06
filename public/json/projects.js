@@ -59,14 +59,25 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
+            "type": "web",
+            "icon": <FaReact/>,
+            "image": "https://i.imgur.com/4HSNW0t.jpg",
+            "name": "Magnet on Mousemove",
+            "link": "https://github.com/WebPerformer/next-magnet-div",
+            "site": "https://next-magnet-div.vercel.app/",
+            "categories": ["Next.js", "Vanilla.js", "CSS"],
+            "date": "15/02/2023",
+            "credits": "Tutorial-Online.com"
+        },
+        {
             "type": "soon",
             "icon": <FaReact/>,
-            "image": "https://i.imgur.com/PmSM9j7.jpg",
-            "name": "Coming Soon",
-            "link": "https://github.com/WebPerformer",
-            "site": "https://next-new-portfolio.vercel.app/",
-            "categories": ["Websites", "Codes", "Components"],
-            "date": "12/01/2023",
+            "image": "https://i.imgur.com/GOBDAGe.jpg",
+            "name": "MERN Dashboard",
+            "link": "https://github.com/WebPerformer/MERN-Dashboard-Client",
+            "site": "https://mern-dashboard-client-omega.vercel.app/",
+            "categories": ["React.js", "MongoDB", "Express"],
+            "date": "06/03/2023",
             "credits": "Tutorial-Online.com"
         },
         {

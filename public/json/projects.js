@@ -4,17 +4,6 @@ import { BiVector, BiCodeAlt } from 'react-icons/bi'
 export const data = {
     "projects": [
         {
-            "type": "dev",
-            "icon": <BiVector/>,
-            "image": "https://i.imgur.com/8aZT6bJ.jpg",
-            "name": "Image Reveal",
-            "link": "https://github.com/WebPerformer/next-image-reveal",
-            "site": "https://next-image-reveal.vercel.app/",
-            "categories": ["Next.js", "Greensock", "CSS"],
-            "date": "06/03/2023",
-            "credits": "Tutorial-Online.com"
-        },
-        {
             "type": "web",
             "icon": <FaReact/>,
             "image": "https://i.imgur.com/4oPNEG7.jpg",

@@ -4,6 +4,17 @@ import { BiVector, BiCodeAlt } from 'react-icons/bi'
 export const data = {
     "projects": [
         {
+            "type": "component",
+            "icon": <BiVector/>,
+            "image": "https://i.imgur.com/eaDbizK.jpg",
+            "name": "Styled Checkbox",
+            "link": "https://github.com/WebPerformer/next-checkbox-styled",
+            "site": "https://next-checkbox-styled.vercel.app/",
+            "categories": ["Next.js", "CSS"],
+            "date": "30/03/2023",
+            "credits": "Tutorial-Online.com"
+        },
+        {
             "type": "web",
             "icon": <FaReact/>,
             "image": "https://i.imgur.com/4oPNEG7.jpg",
@@ -16,7 +27,7 @@ export const data = {
         },
         {
             "type": "dev",
-            "icon": <BiVector/>,
+            "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/4HSNW0t.jpg",
             "name": "Magnet on Mousemove",
             "link": "https://github.com/WebPerformer/next-magnet-div",

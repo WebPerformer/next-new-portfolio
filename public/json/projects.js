@@ -4,6 +4,17 @@ import { BiVector, BiCodeAlt } from 'react-icons/bi'
 export const data = {
     "projects": [
         {
+            "type": "dev",
+            "icon": <BiCodeAlt/>,
+            "image": "https://i.imgur.com/onaOkXo.jpg",
+            "name": "Horizontal Parallax",
+            "link": "https://github.com/WebPerformer/next-horizontal-parallax",
+            "site": "https://next-horizontal-parallax.vercel.app/",
+            "categories": ["Next.js", "Vanilla.js", "Swiper.js"],
+            "date": "03/04/2023",
+            "credits": "Tutorial-Online.com"
+        },
+        {
             "type": "component",
             "icon": <BiVector/>,
             "image": "https://i.imgur.com/eaDbizK.jpg",

@@ -13,7 +13,7 @@ function LeftCard() {
             <div className="my-name">Gabriel Silva Araujo</div>
             <div className="my-skills">Web Developer & UI/UX Design</div>
             <div className="social-icons">
-                <Link target='_blank' href="http://linkedin.com/in/webperformer">
+                <Link target='_blank' href="https://www.linkedin.com/in/mystgabriel/">
                     <div className="social-circle">
                         <FaLinkedinIn/>
                     </div>

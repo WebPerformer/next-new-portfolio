@@ -11,7 +11,7 @@ function Footer() {
     <footer className="footer">
         <div className="footer-wrapper">
             <div className="footer-icons">
-                <Link target='_blank' href="http://linkedin.com/in/webperformer">
+                <Link target='_blank' href="https://www.linkedin.com/in/mystgabriel/">
                     <GrLinkedinOption/>
                 </Link>
                 <Link target='_blank' href="http://github.com/WebPerformer">

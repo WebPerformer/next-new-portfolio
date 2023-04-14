@@ -27,7 +27,7 @@ function Hero() {
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
           <div className="number-counter">
             <div className="number-container">
-              <div className="num">{counterOn && <CountUp start={0} end={4} duration={1} delay={0}/>}+</div>
+              <div className="num">{counterOn && <CountUp start={0} end={2} duration={1} delay={0}/>}+</div>
               <p>Years Of Experience</p>
             </div>
             <div className="number-container">

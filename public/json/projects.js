@@ -6,6 +6,17 @@ export const data = {
         {
             "type": "dev",
             "icon": <BiCodeAlt/>,
+            "image": "https://i.imgur.com/pevbaYb.jpg",
+            "name": "Flip Animation",
+            "link": "https://github.com/WebPerformer/next-flip-animation",
+            "site": "https://next-flip-animation.vercel.app/",
+            "categories": ["Next.js", "Greensock", "Frip"],
+            "date": "15/04/2023",
+            "credits": "Tutorial-Online.com"
+        },
+        {
+            "type": "dev",
+            "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/onaOkXo.jpg",
             "name": "Horizontal Parallax",
             "link": "https://github.com/WebPerformer/next-horizontal-parallax",

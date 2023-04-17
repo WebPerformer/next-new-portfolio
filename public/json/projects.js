@@ -4,6 +4,17 @@ import { BiVector, BiCodeAlt } from 'react-icons/bi'
 export const data = {
     "projects": [
         {
+            "type": "component",
+            "icon": <BiVector/>,
+            "image": "https://i.imgur.com/8O3npCx.jpg",
+            "name": "Liquid Distortion",
+            "link": "https://github.com/WebPerformer/next-liquid-distortion",
+            "site": "https://next-liquid-distortion.vercel.app/",
+            "categories": ["Next.js", "Three.js", "Greensock"],
+            "date": "17/04/2023",
+            "credits": "Tutorial-Online.com"
+        },
+        {
             "type": "dev",
             "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/pevbaYb.jpg",

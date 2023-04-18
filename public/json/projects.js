@@ -4,7 +4,7 @@ import { BiVector, BiCodeAlt } from 'react-icons/bi'
 export const data = {
     "projects": [
         {
-            "type": "component",
+            "type": "dev",
             "icon": <BiVector/>,
             "image": "https://i.imgur.com/8O3npCx.jpg",
             "name": "Liquid Distortion",
@@ -59,7 +59,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "dev",
+            "type": "component",
             "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/4HSNW0t.jpg",
             "name": "Magnet on Mousemove",

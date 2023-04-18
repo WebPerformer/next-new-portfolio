@@ -26,15 +26,15 @@ function Services() {
                 </div>
                 <div className="card">
                     <div className="service-header">
-                        <div className="service-name">Development</div>
+                        <div className="service-name">Creatives</div>
                         <div className="service-icon"><HiOutlineCode/></div>
                     </div>
-                    <div className="service-desc">Codes I used a lot. In the development section you will find some logic codes that really help me.</div>
+                    <div className="service-desc">Some animation styles. In the animation section you'll find  very cool stuffs about Greensock features.</div>
                     <div className="service-qty">{data.projects.filter(dev => dev.type === "dev").length} Projects</div>
                 </div>
                 <div className="card">
                     <div className="service-header">
-                        <div className="service-name">Components</div>
+                        <div className="service-name">Features</div>
                         <div className="service-icon"><BiVector/></div>
                     </div>
                     <div className="service-desc">One of the most important things on this website. Here are some stylized items to help me to speed up my projects.</div>

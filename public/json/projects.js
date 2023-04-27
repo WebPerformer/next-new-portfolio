@@ -4,7 +4,7 @@ import { BiVector, BiCodeAlt } from 'react-icons/bi'
 export const data = {
     "projects": [
         {
-            "type": "component",
+            "type": "full",
             "icon": <BiVector/>,
             "image": "https://i.imgur.com/200gfbW.jpg",
             "name": "Realtime Weather",
@@ -15,7 +15,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "dev",
+            "type": "creative",
             "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/8O3npCx.jpg",
             "name": "Liquid Distortion",
@@ -26,7 +26,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "dev",
+            "type": "creative",
             "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/pevbaYb.jpg",
             "name": "Flip Animation",
@@ -37,7 +37,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "dev",
+            "type": "creative",
             "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/onaOkXo.jpg",
             "name": "Horizontal Parallax",
@@ -48,7 +48,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "component",
+            "type": "creative",
             "icon": <BiVector/>,
             "image": "https://i.imgur.com/eaDbizK.jpg",
             "name": "Styled Checkbox",
@@ -59,8 +59,8 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "web",
-            "icon": <FaReact/>,
+            "type": "full",
+            "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/4oPNEG7.jpg",
             "name": "MERN Dashboard",
             "link": "https://github.com/WebPerformer/MERN-Dashboard-Client",
@@ -70,7 +70,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "component",
+            "type": "creative",
             "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/4HSNW0t.jpg",
             "name": "Magnet on Mousemove",
@@ -81,7 +81,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "component",
+            "type": "creative",
             "icon": <BiVector/>,
             "image": "https://i.imgur.com/9grKBUZ.jpg",
             "name": "Custom Mouse Cursor",
@@ -92,7 +92,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "component",
+            "type": "creative",
             "icon": <BiVector/>,
             "image": "https://i.imgur.com/ed86VAX.jpg",
             "name": "Tredy Scrolldown",
@@ -103,7 +103,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "dev",
+            "type": "creative",
             "icon": <BiCodeAlt/>,
             "image": "https://i.imgur.com/pKb8yxg.jpg",
             "name": "Mousemove Parallax",
@@ -114,7 +114,7 @@ export const data = {
             "credits": "Tutorial-Online.com"
         },
         {
-            "type": "web",
+            "type": "front",
             "icon": <FaReact/>,
             "image": "https://i.imgur.com/oqaRKoq.jpg",
             "name": "My Personal Portfolio",

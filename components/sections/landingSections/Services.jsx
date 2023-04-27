@@ -18,27 +18,27 @@ function Services() {
             <div className="services-cards">
                 <div className="card">
                     <div className="service-header">
-                        <div className="service-name">Websites</div>
+                        <div className="service-name">Front End</div>
                         <div className="service-icon"><FaReact/></div>
                     </div>
                     <div className="service-desc">I produce websites that increase my knowledge. Like this one.</div>
-                    <div className="service-qty">{data.projects.filter(web => web.type === "web").length} Projects</div>
+                    <div className="service-qty">{data.projects.filter(front => front.type === "front").length} Projects</div>
                 </div>
                 <div className="card">
                     <div className="service-header">
-                        <div className="service-name">Creatives</div>
+                        <div className="service-name">Full Stack</div>
                         <div className="service-icon"><HiOutlineCode/></div>
                     </div>
                     <div className="service-desc">Some animation styles. In the animation section you'll find  very cool stuffs about Greensock features.</div>
-                    <div className="service-qty">{data.projects.filter(dev => dev.type === "dev").length} Projects</div>
+                    <div className="service-qty">{data.projects.filter(full => full.type === "full").length} Projects</div>
                 </div>
                 <div className="card">
                     <div className="service-header">
-                        <div className="service-name">Features</div>
+                        <div className="service-name">Creative</div>
                         <div className="service-icon"><BiVector/></div>
                     </div>
                     <div className="service-desc">One of the most important things on this website. Here are some stylized items to help me to speed up my projects.</div>
-                    <div className="service-qty">{data.projects.filter(component => component.type === "component").length} Projects</div>
+                    <div className="service-qty">{data.projects.filter(creative => creative.type === "creative").length} Projects</div>
                 </div>
             </div>
         </div>

@@ -21,7 +21,7 @@ function Services() {
                         <div className="service-name">Front End</div>
                         <div className="service-icon"><FaReact/></div>
                     </div>
-                    <div className="service-desc">I produce websites that increase my knowledge. Like this one.</div>
+                    <div className="service-desc">Landing pages with full responsiveness and interactions. Here you will see beautiful websites using the latest technologies of the moment.</div>
                     <div className="service-qty">{data.projects.filter(front => front.type === "front").length} Projects</div>
                 </div>
                 <div className="card">
@@ -29,7 +29,7 @@ function Services() {
                         <div className="service-name">Full Stack</div>
                         <div className="service-icon"><HiOutlineCode/></div>
                     </div>
-                    <div className="service-desc">Some animation styles. In the animation section you'll find  very cool stuffs about Greensock features.</div>
+                    <div className="service-desc">Complete and functional websites that uses a full stack development, for real cases and much more.</div>
                     <div className="service-qty">{data.projects.filter(full => full.type === "full").length} Projects</div>
                 </div>
                 <div className="card">
@@ -37,7 +37,7 @@ function Services() {
                         <div className="service-name">Creative</div>
                         <div className="service-icon"><BiVector/></div>
                     </div>
-                    <div className="service-desc">One of the most important things on this website. Here are some stylized items to help me to speed up my projects.</div>
+                    <div className="service-desc">Some of the creative resources you can interact with. Animations of all types, dimensions and colors! Don't be shy and test every corner of it.</div>
                     <div className="service-qty">{data.projects.filter(creative => creative.type === "creative").length} Projects</div>
                 </div>
             </div>

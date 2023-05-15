@@ -6,7 +6,7 @@ import ScrollTrigger from 'react-scroll-trigger'
 import { AiOutlineAim, AiFillHtml5 } from 'react-icons/ai'
 import { CgFigma } from 'react-icons/cg'
 import { DiCss3, DiJavascript1, DiReact, DiNodejsSmall } from 'react-icons/di'
-import { SiNextdotjs, SiExpress, SiMongodb } from 'react-icons/si'
+import { SiNextdotjs, SiExpress, SiMongodb, SiJest } from 'react-icons/si'
 
 function Skills() {
 
@@ -72,6 +72,12 @@ function Skills() {
                                 <div className="icon"><SiMongodb/></div>
                             </div>
                             <div className="name">MongoDB</div>
+                        </div>
+                        <div className="skills-card">
+                            <div className="circle">
+                                <div className="icon"><SiJest/></div>
+                            </div>
+                            <div className="name">Jest</div>
                         </div>
                     </div>
                 </ScrollTrigger>
